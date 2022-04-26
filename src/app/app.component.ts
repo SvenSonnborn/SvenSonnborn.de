@@ -6,7 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
-  images = ['university.jpg', 'learning.jpg', 'coding.jpg'];
+  images = ['coding.jpg', 'learning.jpg', 'university.jpg'];
+  headlines = [
+    'Find out what you like doing best and make it your job',
+    'If you are willing to be a self-learner, you will develop yourself',
+    'Allways learning',
+  ];
+
   currentImg = 0;
   showImg = true;
 
